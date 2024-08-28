@@ -1,22 +1,13 @@
 {
-    "identifier": "main-capability",
-    "description": "Capability for the main window",
+    "identifier": "dist-capability",
+    "description": "Capabilities for distribution",
     "windows": ["*"],
     "permissions": [
         "core:event:allow-emit",
-        "core:image:allow-from-bytes",
-        "core:image:allow-from-path",
         "core:path:allow-basename",
         "core:resources:allow-close",
-        "core:tray:allow-get-by-id",
-        "core:webview:allow-create-webview",
         "core:window:allow-close",
-        "core:webview:allow-internal-toggle-devtools",
         "core:path:default",
-        {
-            "identifier": "fs:allow-copy-file",
-            "allow": [{ "path": "$APPDATA/**" }, { "path": "$APPCONFIG/**" }]
-        },
         {
             "identifier": "fs:allow-read-dir",
             "allow": [{ "path": "$APPDATA/**" }, { "path": "$APPCONFIG/**" }]

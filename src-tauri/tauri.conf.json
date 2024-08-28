@@ -17,7 +17,7 @@
 				"fullscreen": false
 			}
 		],
-		"security": { "capabilities": ["main-capability"] }
+		"security": { "capabilities": ["dist-capability"] }
 	},
 	"bundle": {
 		"active": true,

@@ -1,7 +1,7 @@
 # Wallpaper Picker UI
 
 Simple UI to select a wallpaper and use it with a command
-Suggested command:
+<br/>Suggested command:
 ```bash
 killall mpvpaper ; mpvpaper -o "loop no-audio" "*" $VP
 ```
