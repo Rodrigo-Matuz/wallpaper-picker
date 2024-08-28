@@ -9,6 +9,11 @@ killall mpvpaper ; mpvpaper -o "loop no-audio" "*" $VP
 
 [Wallpaper Picker Screenshot](https://github.com/user-attachments/assets/ec05beba-de5e-48d3-80e4-1258bb8183b1)
 
+## Dependencies
+
+- **FFmpeg:** Required for generating thumbnails
+- **mpvpaper:** Download it from [here](https://github.com/GhostNaN/mpvpaper).
+
 ## Installation
 
 ### From Releases
@@ -16,6 +21,9 @@ killall mpvpaper ; mpvpaper -o "loop no-audio" "*" $VP
 Visit the [Releases](https://github.com/Rodrigo-Matuz/wallpaper-picker/releases) page to download pre-built binaries.
 
 ### Build from Source
+
+<details>
+  <summary>Click to show instructions</summary>
 
 1. **Clone the Project:**
     ```bash
@@ -42,3 +50,6 @@ Visit the [Releases](https://github.com/Rodrigo-Matuz/wallpaper-picker/releases)
    The binary will be in this directory. `.deb` and `.rpm` packages can be found in the `bundle/` directory.
 
 Feel free to move the binary to your preferred location.
+
+</details>
+
