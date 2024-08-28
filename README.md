@@ -12,7 +12,8 @@ killall mpvpaper ; mpvpaper -o "loop no-audio" "*" $VP
 ## Dependencies
 
 - **FFmpeg:** Required for generating thumbnails
-- **mpvpaper:** Download it from [here](https://github.com/GhostNaN/mpvpaper).
+- **[mpvpaper](https://github.com/GhostNaN/mpvpaper):** Optional. You can replace by a custom script or program
+
 
 ## Installation
 
