@@ -1,5 +1,5 @@
 [package]
-name = "wallpaper_picker"
+name = "wallpaper-picker"
 version = "1.0.0"
 description = "A Tauri App"
 authors = ["Rodrigo-Matuz"]

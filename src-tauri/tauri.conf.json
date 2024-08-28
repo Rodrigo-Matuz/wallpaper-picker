@@ -1,7 +1,7 @@
 {
-	"productName": "wallpaper_picker",
+	"productName": "wallpaper-picker",
 	"version": "1.0.0",
-	"identifier": "wallpaper_picker",
+	"identifier": "wallpaper-picker",
 	"build": {
 		"beforeDevCommand": "bun run dev",
 		"devUrl": "http://localhost:1420",
@@ -17,7 +17,7 @@
 				"fullscreen": false
 			}
 		],
-		"security": { "capabilities": ["dist-capability"] }
+		"security": { "capabilities": ["dev-capability"] }
 	},
 	"bundle": {
 		"active": true,

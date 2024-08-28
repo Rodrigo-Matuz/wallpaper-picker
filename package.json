@@ -1,5 +1,5 @@
 {
-    "name": "wallpaper_picker",
+    "name": "wallpaper-picker",
     "version": "1.0.0",
     "dependencies": {
         "@emotion/react": "^11.13.3",
